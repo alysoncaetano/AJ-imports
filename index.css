@@ -1,0 +1,54 @@
+.body {
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conteiner {
+  display: flex;
+  align-items: center;
+  background-color:rgba(0, 0, 0);
+}
+.logo {
+    margin-left: 200px;
+    display: flex;
+    height: 90px;
+    width: 1px;
+}
+.produto1 {
+    display: flex;
+    color: white;
+    margin-left: 250px;
+    font-size: 20px;
+}
+.produto2 {
+    margin-left: 50px;
+    color: white;
+}
+a:hover {
+    background-color: rgb(124, 117, 117);
+    color: white;
+    border-bottom: 2px solid white;
+}
+.produto {
+    display: flex;
+    margin-left: -20px;
+    color: white;
+}
+.boton {
+    display: flex;
+    margin-left: 150px;
+}
+.boton1 {
+    margin-left: 20px;
+    border-radius: 3px;
+}
+.produto5 {
+    margin-left: 10px;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+   
+}
