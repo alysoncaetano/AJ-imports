@@ -2,6 +2,10 @@
     margin-top: 0px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #a3a3a3;
+}
+.conteinertodo {
+    text-align: -webkit-center;
 }
 .conteiner {
   display: flex;
@@ -52,11 +56,16 @@ button:hover {
     border-bottom: 2px solid white;
    
 }
+.conteudo {
+    text-align: -webkit-center;
+    background-color: rgb(240, 248, 255), 0,8;
+}
 .conteiner1 {
-    background-color: rgb(151, 151, 185);
+    justify-content: center;
+    display: flex;
 }
 .vitrine {
-    display: flex; 
+        display: flex; 
     justify-content: center;
     margin-top: 50px;
     flex-wrap: wrap;
@@ -72,8 +81,8 @@ button:hover {
     border-radius: 10px;
 }
 .img {
-    width: 250px;
-    height: 200px;
+    max-width: 250px;
+    max-height: 200px;
     display: flex;
     align-items: center;
     width: 0 auto;
